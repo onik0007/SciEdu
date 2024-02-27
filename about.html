@@ -1,0 +1,80 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SciEdu</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>About Us</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Empowering Jamaican Students Through Interactive Science Education"</h1>     
+            <p>Welcome to SciEduJam, the cutting-edge online educational platform designed exclusively for Jamaican primary school students. Our mission is to revolutionize science education by providing an interactive and curriculum-aligned learning experience. Founded on the principles of accessibility and quality education, we are dedicated to enhancing children's understanding of science. Our team is committed to creating a stimulating environment where students in grades 4 to 6 can explore and excel in various scientific subjects.
+
+            At SciEduJam, our vision is to become the go-to resource for science education in Jamaica, not only supporting students but also aiding educators and parents in enriching the learning journey. With a focus on aligning with the PEP (Primary Exit Profile) curriculum, our platform offers comprehensive resources to assist students in mastering scientific concepts while preparing for their exams.
+
+            Driven by a passion for interactive learning, our platform features engaging multimedia lessons, hands-on experiments, self-assessment quizzes, and a student forum for collaborative learning. We are committed to fostering a safe and vibrant online community that promotes curiosity, critical thinking, and a love for science.
+
+            Join us at SciEduJam as we strive to empower the next generation of Jamaican scientists and innovators, providing them with the tools they need to succeed in their educational endeavors.</p>
+            <a href="blog.html" class="hero-btn red-btn">EXPOLRE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>At SciEduJam, we're passionate about revolutionizing Jamaican science education by offering <br> an interactive and curriculum-aligned online platform for primary school students.</p>
+        <div class="icons">
+            <a href="https://facebook.com"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+            <a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
+            <a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
+            
+        </div>
+        <a href="" class="footer-link"><p>Made with<i class="fa fa-heart-o"></i> by Kino Porteous from SciJamEdu</p></a>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

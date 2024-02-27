@@ -1,0 +1,94 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SciEdu</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="header">
+        
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>Coming Soon!</h1>
+            <p>CSEC assesses High school students in the Caribbean, evaluating their knowledge and skills across various subjects <br>at the secondary level.</p>
+        </div>
+    </section>
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>PEP</h3>
+                <p>PEP (Primary Exit Profile)assesses students' readiness to move from primary to secondary education and covers areas such as literacy, numeracy, and critical thinking.</p>
+                <a href="pep-course.html" class="hero-btn1">View Course</a>
+            </div>
+            <div class="course-col">
+                <h3>CSEC</h3>
+                <p>CSEC assesses High school students in the Caribbean, evaluating their knowledge and skills across various subjects at the secondary level.</p>
+                <a href="course.html" class="hero-btn1">View Course</a>
+            </div>
+            <div class="course-col">
+                <h3>CAPE</h3>
+                <p> CAPE assesses secondary education students in the Caribbean, evaluating their proficiency in diverse subjects after two years of advanced level studies.</p>
+                <a href="course.html" class="hero-btn1">View Course</a>
+            </div>
+        </div>
+    </section>
+    
+ 
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>At SciEduJam, we're passionate about revolutionizing Jamaican science education by offering <br> an interactive and curriculum-aligned online platform for primary school students.</p>
+        <div class="icons">
+            <a href="https://facebook.com"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+            <a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
+            <a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
+            
+        </div>
+        <a href="" class="footer-link"><p>Made with<i class="fa fa-heart-o"></i> by Kino Porteous from SciJamEdu</p></a>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,127 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SciEdu</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Online Programs For Grades 4 to 6</h1>
+    </section>
+    
+<!---------- Blog Page Content ---------->
+    
+    <section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="images/teacher.jpg">
+        <h2>Our Online Programs For PEP Students</h2>
+        
+        <p>At SciEduJam, we pride ourselves on offering a comprehensive suite of online programs specifically designed to support and enhance the learning experience of PEP students in Jamaican primary schools. Our programs are meticulously crafted to align with the PEP curriculum for students in Grades 4 to 6, focusing on crucial science subjects like physics, chemistry, and biology.</p>
+        <br>
+        <p>These online programs serve as invaluable tools for PEP students, providing them with interactive and engaging resources that aid in their preparation for the PEP exams. Each program is structured to cater to the unique learning needs of students at different grade levels, ensuring comprehensive coverage of topics while adhering closely to the curriculum standards set by the Ministry of Education in Jamaica.</p>
+        <br>
+        <p>Our programs feature a range of multimedia-rich content, including interactive lessons, engaging videos, and animations, all designed to simplify complex scientific concepts and make learning enjoyable. Additionally, hands-on experiments with detailed step-by-step instructions enable students to conduct practical activities at home, reinforcing their understanding of scientific principles.</p>
+        <br>
+        <p>Furthermore, our online programs include self-assessment quizzes and practice tests specifically tailored to each subject and grade level. These quizzes not only help students evaluate their knowledge but also serve as valuable tools for exam preparation, allowing students to practice and reinforce what they've learned.</p>
+        <br>
+        <p>At SciEduJam, we understand the importance of fostering a supportive learning environment. That's why our programs also provide access to a dedicated student forum. This forum serves as a platform for peer-to-peer interaction, where students can collaborate, ask questions, share insights, and engage in discussions related to their science studies.</p>
+        <br>
+        <p>Our commitment to providing high-quality education to PEP students is unwavering. Through our online programs, we aim to empower students with the knowledge, skills, and confidence they need to excel in their science education and succeed in their PEP examinations.<p>
+        
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+    </div>
+        
+    <div class="blog-right">
+        
+        
+            <h3>Blog Categories</h3>
+            <div>
+                <span>The Importance of Interactive Learning</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Fun and Easy Science Experiments </span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Peer Collaboration</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Critical Thinking Skills</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Hands-On Learning</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Innovative Teaching Techniques</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Inspiring the Next Generation </span>
+                <span>13</span>
+            </div>
+           
+        </div> 
+    
+    </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>At SciEduJam, we're passionate about revolutionizing Jamaican science education by offering <br> an interactive and curriculum-aligned online platform for primary school students.</p>
+        <div class="icons">
+            <a href="https://facebook.com"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+            <a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
+            <a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
+            
+        </div>
+        <a href="" class="footer-link"><p>Made with<i class="fa fa-heart-o"></i> by Kino Porteous from SciJamEdu</p></a>
+</section>      
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
